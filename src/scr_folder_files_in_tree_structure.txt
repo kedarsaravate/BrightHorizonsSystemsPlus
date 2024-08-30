@@ -1,0 +1,40 @@
+Folder PATH listing
+Volume serial number is 3008-B4F2
+C:.
+¦   tree.txt
+¦   
++---main
+¦   +---java
+¦   +---resources
++---test
+    +---java
+    ¦   +---pages
+    ¦   ¦       BasePage.java
+    ¦   ¦       BrightHorizon_SearchPage.java
+    ¦   ¦       BrightHorizon_SectionPage.java
+    ¦   ¦       StaticData.java
+    ¦   ¦       
+    ¦   +---reporting
+    ¦   ¦       ExtentManager.java
+    ¦   ¦       ExtentReportManager.java
+    ¦   ¦       
+    ¦   +---tests
+    ¦   ¦       BaseTest.java
+    ¦   ¦       BrightHorizon_SmokeSuite.java
+    ¦   ¦       
+    ¦   +---utils
+    ¦           DateUtils.java
+    ¦           ReadPropertiesFile.java
+    ¦           ScreenshotUtil.java
+    ¦           
+    +---resources
+        ¦   log4j.properties
+        ¦   
+        +---conf
+        ¦       config.properties
+        ¦       searchConfig_en.properties
+        ¦       
+        +---drivers
+                chromedriver.exe
+                geckodriver.exe
+                
