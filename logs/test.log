@@ -205,3 +205,16 @@
 2024-08-29 18:30:49 INFO  BrightHorizon_SmokeSuite:42 - Validate the actual search now for search text as: Family solution
 2024-08-29 18:32:12 INFO  BaseTest:85 - @AfterTest method execution
 2024-08-29 18:32:13 INFO  BaseTest:91 - @AfterSuite method execution
+2024-08-30 15:59:54 INFO  BaseTest:38 - @BeforeSuite method execution
+2024-08-30 15:59:54 INFO  BaseTest:52 - @BeforeTest method execution
+2024-08-30 15:59:58 INFO  BrightHorizon_SmokeSuite:17 - Create object of the BrightHorizon_SectionPage page.
+2024-08-30 15:59:58 INFO  BrightHorizon_SmokeSuite:19 - Verifying the content of URL for EdAssist Solutions
+2024-08-30 16:00:28 INFO  BrightHorizon_SmokeSuite:22 - Verifying the dots and comments inside Family Solutions
+2024-08-30 16:00:51 INFO  BrightHorizon_SmokeSuite:28 - Create object of the BrightHorizon_SearchPage page.
+2024-08-30 16:00:51 INFO  BrightHorizon_SmokeSuite:30 - Getting value of the search text from properties file.
+2024-08-30 16:00:51 INFO  BrightHorizon_SmokeSuite:32 - Validate the actual search now for search text as: Employee Education in 2018: Strategies to Watch
+2024-08-30 16:01:13 INFO  BrightHorizon_SmokeSuite:38 - Create object of the BrightHorizon_SearchPage page.
+2024-08-30 16:01:13 INFO  BrightHorizon_SmokeSuite:40 - Getting value of the search text from properties file.
+2024-08-30 16:01:13 INFO  BrightHorizon_SmokeSuite:42 - Validate the actual search now for search text as: Family solution
+2024-08-30 16:01:36 INFO  BaseTest:85 - @AfterTest method execution
+2024-08-30 16:01:37 INFO  BaseTest:91 - @AfterSuite method execution
