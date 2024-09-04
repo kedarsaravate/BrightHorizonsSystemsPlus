@@ -19,6 +19,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.BrightHorizon_CentersPage;
 import pages.BrightHorizon_SearchPage;
 import pages.BrightHorizon_SectionPage;
 import reporting.ExtentManager;
@@ -103,6 +104,11 @@ public class BaseTest{
 	public BrightHorizon_SearchPage brightHorizon_SearchPage() { 
 		return (BrightHorizon_SearchPage) getCurrentPageAs(BrightHorizon_SearchPage.class);
 	}
+	
+	public BrightHorizon_CentersPage brightHorizon_CentersPage() { 
+		return (BrightHorizon_CentersPage) getCurrentPageAs(BrightHorizon_CentersPage.class);
+	}
+	
 	
 	
 }

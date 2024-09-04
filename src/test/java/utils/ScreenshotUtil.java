@@ -56,7 +56,7 @@ public class ScreenshotUtil {
 		try {
 			Robot robot = new Robot();
 			BufferedImage screenShot = robot.createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-			ImageIO.write(screenShot, "JPG", new File("./screenshots/" + fileName + ".png"));
+			ImageIO.write(screenShot, "PNG", new File("./screenshots/" + fileName + ".png"));
 			System.out.println("Screenshot with URL Address Bar taken: " + fileName);
 		} catch (Exception e) {
 			e.printStackTrace();

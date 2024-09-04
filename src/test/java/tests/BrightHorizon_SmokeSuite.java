@@ -3,6 +3,7 @@ package tests;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
+import pages.BrightHorizon_CentersPage;
 import pages.BrightHorizon_SearchPage;
 import pages.BrightHorizon_SectionPage;
 
@@ -41,5 +42,19 @@ public class BrightHorizon_SmokeSuite extends BaseTest {
 		String searchCriteria=searchConfigPropFile.getProperty("search_education_not_exist");
 		log.info("Validate the actual search now for search text as: " + searchCriteria);
 		bhSearchPage.verifySearchFunctionality(searchCriteria); 
+	}
+	
+	@Test (priority = 4, groups = {"smoke"} , description ="1)Validation of 'child-care-locator' as a part of URL for Find A Center page. "
+			+ " 2)Validation of number of centers, center name and address after search by city name on Find A Center page.") 
+	public void verifyURLContentsAndMatchingNumberOfCenters() { 
+		
+		log.info("Create object of the BrightHorizon_CentersPage page.");
+		BrightHorizon_CentersPage bhCentersPage = brightHorizon_CentersPage() ; 
+		log.info("Verifying the content of URL for Find A Center Page");
+		String urlContents=searchConfigPropFile.getProperty("url_contains_child_care_locator");
+		bhCentersPage.verifyURLContents(urlContents);
+		String locationText=searchConfigPropFile.getProperty("location");
+		log.info("Verifying the center name, address by City search for Find A Center Page");
+		bhCentersPage.searchCenterByLocationAndVerifyCountAndOtherDetails(locationText);		
 	}
 }
