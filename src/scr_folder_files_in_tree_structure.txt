@@ -1,39 +1,38 @@
 Folder PATH listing
 Volume serial number is 3008-B4F2
 C:.
-¦   tree.txt
-¦   
-+---main
-¦   +---java
-¦   +---resources
+Â¦   scr_folder_files_in_tree_structure.txt
+Â¦ 
+Â¦   
 +---test
     +---java
-    ¦   +---pages
-    ¦   ¦       BasePage.java
-    ¦   ¦       BrightHorizon_SearchPage.java
-    ¦   ¦       BrightHorizon_SectionPage.java
-    ¦   ¦       StaticData.java
-    ¦   ¦       
-    ¦   +---reporting
-    ¦   ¦       ExtentManager.java
-    ¦   ¦       ExtentReportManager.java
-    ¦   ¦       
-    ¦   +---tests
-    ¦   ¦       BaseTest.java
-    ¦   ¦       BrightHorizon_SmokeSuite.java
-    ¦   ¦       
-    ¦   +---utils
-    ¦           DateUtils.java
-    ¦           ReadPropertiesFile.java
-    ¦           ScreenshotUtil.java
-    ¦           
+    Â¦   +---pages
+    Â¦   Â¦       BasePage.java
+    Â¦   Â¦       BrightHorizon_CentersPage.java
+    Â¦   Â¦       BrightHorizon_SearchPage.java
+    Â¦   Â¦       BrightHorizon_SectionPage.java
+    Â¦   Â¦       StaticData.java
+    Â¦   Â¦       
+    Â¦   +---reporting
+    Â¦   Â¦       ExtentManager.java
+    Â¦   Â¦       ExtentReportManager.java
+    Â¦   Â¦       
+    Â¦   +---tests
+    Â¦   Â¦       BaseTest.java
+    Â¦   Â¦       BrightHorizon_SmokeSuite.java
+    Â¦   Â¦       
+    Â¦   +---utils
+    Â¦           DateUtils.java
+    Â¦           ReadPropertiesFile.java
+    Â¦           ScreenshotUtil.java
+    Â¦           
     +---resources
-        ¦   log4j.properties
-        ¦   
+        Â¦   log4j.properties
+        Â¦   
         +---conf
-        ¦       config.properties
-        ¦       searchConfig_en.properties
-        ¦       
+        Â¦       config.properties
+        Â¦       searchConfig_en.properties
+        Â¦       
         +---drivers
                 chromedriver.exe
                 geckodriver.exe
